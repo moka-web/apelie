@@ -123,11 +123,18 @@ nav{
   .our-solution-section{
     width: 100%;
     height: 100vh;
-
+    margin-top: 10vh;
     div{
         width: 100%;
         .text-our-solutions{
             padding: 10%;
+        }
+        .text-our-solutions{
+            img{
+                width: 30vw;
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
         }
         .our-solution-img{
             padding-top: 10%;
@@ -151,6 +158,10 @@ nav{
         }
         .text-benefits{
             padding: 10%;
+            img{
+                width: 20vw;
+                margin-bottom: 10%;
+            }
         }
     }
   }
@@ -158,6 +169,15 @@ nav{
 
 .section-validation{
     width: 100%;
+    margin-top: 10vh;
+    .title-validation{
+     
+        display: flex;
+        flex-direction: column;
+        img{
+         width: 25vw;
+        }
+     }
  
     .section-validation-graph{
         width: 100%;
@@ -171,9 +191,7 @@ nav{
            
             margin: .5rem;
         }
-        .title-validation{
-           margin: 0;
-        }
+      
     }
 
     .section-validation-text{
@@ -252,6 +270,10 @@ padding: 5rem;
 
 .text-main-about-container{
 padding-left: 1rem;
+h1{
+    font-family: "sequel sans black disp";
+    font-size: 5vw;
+}   
 }
 
 
@@ -311,18 +333,14 @@ padding-left: 1rem;
     h1{
         text-align: start;
         margin: 2rem;
-    }
+        font-family: "sequel sans black disp";
+        font-size: 5vw;
+            }
     img{
         width: 100%;
         height: 100vh;
         margin-bottom: 10vh
     };
-}
-
-h1{
-    font-family: 'Anton', sans-serif;
-    font-size: 60px;
-    color: #000000;
 }
 
 //solution 
