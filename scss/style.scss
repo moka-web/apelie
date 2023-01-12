@@ -4,17 +4,26 @@
     src: url(/fonts/SequelSansTTF/SequelSansBlackDisp.ttf);
 }
 .header-main{
-    
     width: 100%;
     height: 100vh;
    .header-div-main{
-    background-image: url("/images/Light-Gray-Backgrounds-Wallpapers_29.jpg");
-
+   
+    background-repeat: no-repeat;
+    background-size: fill;
     width: 100%;
     height: 20vh;
     display: flex;
     justify-content: space-between;
-    padding-top: 3%
+    
+    
+    #background-video {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+     position: absolute;
+        z-index: -10;
+       
+      }
    }
    .carousel{
     margin-top: 5%;
@@ -38,18 +47,23 @@
 nav{
     ul{
         display: flex;
-        justify-content: space-between;
        list-style: none;
+       margin-left: 6vw;
+       div{
+        margin-right: 8.5vw;
+       }
+       li{
+        margin-right: 8.5vw;
+       }
     }
-
-   
     .btn-main{
+        padding-top:1px;
         margin-top: 1.5rem;
-        width: 15vw;
-        height: 2rem;
-        font-family:sans-serif;
+        width: 14vw;
+        height: 5vh;
+        font-family: 'Source Sans Pro', sans-serif;
         color: #050505;
-        font-size: 16px;
+        font-size: 1.5vw;
         text-decoration: none;
         -webkit-border-radius: 27px;
         -moz-border-radius: 27px;
@@ -59,7 +73,27 @@ nav{
         box-shadow: 0px 3px 5px #666666;
         text-shadow: 0px 0px 0px #666666;
         background: #ffffff;
+        text-transform: math-auto;
+        text-align: center;
         
+    }
+
+    .btn-main-active{
+        padding-top:1px;
+        margin-top: 1.5rem;
+        width: 14vw;
+        height: 5vh;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.5vw;
+        text-decoration: none;
+        -webkit-border-radius: 27px;
+        -moz-border-radius: 27px;
+        border-radius: 27px;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaa01), to(#fdab05));
+        text-transform: math-auto;
+        text-align: center;
+        box-shadow: none !important;
     }
     .btn-main:hover{
         background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaa01), to(#eea004));
@@ -70,10 +104,12 @@ nav{
 
 
 .logo{
+    margin-top: 10%;
     width: 10vw;
 }
 
 .logo1{
+    margin-top: 10%;
     width: 20vw;
 }
 
@@ -83,6 +119,10 @@ nav{
     position: relative;
     z-index: 5;
     height: 100%;
+    span{
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: math-auto;
+    }
    
   }
   .dropdown-content {
@@ -127,7 +167,8 @@ nav{
     div{
         width: 100%;
         .text-our-solutions{
-            padding: 10%;
+            padding: 5%;
+            
         }
         .text-our-solutions{
             img{
@@ -139,7 +180,7 @@ nav{
         .our-solution-img{
             padding-top: 10%;
             width: 100%;
-            height: 90vh !important;
+            height: 80vh !important;
             object-fit: cover;
         }
     }
@@ -153,11 +194,11 @@ nav{
         .benefits-img{
             padding-top: 10%;
             width: 100%;
-            height: 90vh !important;
+            height: 80vh !important;
             object-fit: cover;
         }
         .text-benefits{
-            padding: 10%;
+            padding: 7%;
             img{
                 width: 20vw;
                 margin-bottom: 10%;
@@ -171,10 +212,11 @@ nav{
     width: 100%;
     margin-top: 10vh;
     .title-validation{
-     
+        padding-left: 4vw;
         display: flex;
         flex-direction: column;
         img{
+        
          width: 25vw;
         }
      }
@@ -228,22 +270,36 @@ nav{
 
 .about-div-bg{
     // background-image: url("/images/Light-Gray-Backgrounds-Wallpapers_29.jpg");
-    background-color: #c2bfbf;
+   width: 100% !important;
+    #background-video-about{
+        width: 100% !important;
+        height: 300vh;
+        z-index: -100;
+        position: absolute;
+        object-fit: cover;
+    }
   
 }
 
 .header-about{
-     
     width: 100%;
    
    .header-div-main{
-    background-image: url("/images/Light-Gray-Backgrounds-Wallpapers_29.jpg");
-    
     width: 100%;
     height: 20vh;
     display: flex;
     justify-content: space-between;
-    padding-top: 3%
+   
+
+    #background-video {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+        position: absolute;
+        z-index: -10;
+       
+      }
+    
    }
    
 }
@@ -301,9 +357,13 @@ h1{
     background-color: white;
     width: 100%;
     height: 100vh;
+    align-items: center;
     img{
-        width: 100%;
-        height: 100%;
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+        height: 90%;
+        
     }
 }
 
@@ -337,8 +397,10 @@ h1{
         font-size: 5vw;
             }
     img{
-        width: 100%;
-        height: 100vh;
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+       
         margin-bottom: 10vh
     };
 }
