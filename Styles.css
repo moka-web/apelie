@@ -36,7 +36,7 @@
     -webkit-backdrop-filter: blur(5.9px);
     position: absolute;
     left: 5%;
-    height: 30%;
+    height: 38%;
     width: 38%;
     bottom: 2rem;
     right: 60%;
@@ -45,9 +45,11 @@
     color: #fff;
     text-align: center; }
     .header-main .carousel-caption h5 {
+      padding: 0.5rem;
       width: 100%;
       display: flex;
-      font-size: 1.5rem;
+      font-size: 2rem;
+      color: #000000;
       margin-block-start: none;
       margin-block-end: none;
       margin-inline-start: 0px;
@@ -69,7 +71,7 @@ nav .btn-main {
   margin-top: 1.5rem;
   width: 14vw;
   height: 5vh;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #050505;
   font-size: 1.5vw;
   text-decoration: none;
@@ -89,7 +91,7 @@ nav .btn-main-active {
   margin-top: 1.5rem;
   width: 14vw;
   height: 5vh;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: white;
   font-size: 1.5vw;
   text-decoration: none;
@@ -171,6 +173,9 @@ nav .btn-main:hover {
       width: 30vw;
       margin-top: 10%;
       margin-bottom: 10%; }
+    .our-solution-section div .text-our-solutions p {
+      font-family: 'Inter', sans-serif;
+      font-weight: bold; }
     .our-solution-section div .our-solution-img {
       padding-top: 10%;
       width: 100%;
@@ -192,6 +197,9 @@ nav .btn-main:hover {
       .benefits-section div .text-benefits img {
         width: 20vw;
         margin-bottom: 10%; }
+      .benefits-section div .text-benefits p {
+        font-family: 'Inter', sans-serif;
+        font-weight: bold; }
 
 .section-validation {
   width: 100%;
@@ -202,6 +210,9 @@ nav .btn-main:hover {
     flex-direction: column; }
     .section-validation .title-validation img {
       width: 25vw; }
+    .section-validation .title-validation p {
+      font-family: 'Inter', sans-serif;
+      font-weight: bold; }
   .section-validation .section-validation-graph {
     width: 100%;
     display: flex;
@@ -215,6 +226,9 @@ nav .btn-main:hover {
     display: flex;
     margin-top: 3rem;
     margin-bottom: 10rem; }
+    .section-validation .section-validation-text p {
+      font-family: 'Inter', sans-serif;
+      font-weight: bold; }
 
 .footer {
   width: 100%;
@@ -278,7 +292,7 @@ nav .btn-main:hover {
       font-family: "sequel sans black disp";
       font-size: 4vw; }
     .ourStory-about .text-main-about-container p {
-      font-family: sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: bold;
       font-size: 1vw; }
 
@@ -305,7 +319,7 @@ nav .btn-main:hover {
     object-fit: scale-down; }
   .our-team-section p {
     width: 70%;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 1vw;
     margin-top: 1rem; }
@@ -374,7 +388,7 @@ nav .btn-main:hover {
     margin-top: 15vh; }
     .consist1 .consist1_textdiv p {
       width: 100%;
-      font-family: sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: bold;
       font-size: 1vw; }
 
@@ -386,7 +400,7 @@ nav .btn-main:hover {
   .consist2 .consist2_textdiv {
     width: 40%; }
     .consist2 .consist2_textdiv p {
-      font-family: sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: bold;
       font-size: 1vw; }
   .consist2 .consist2_imgdiv {
@@ -413,7 +427,7 @@ nav .btn-main:hover {
     width: 50%; }
     .consist3 .consist3_textdiv p {
       width: 80%;
-      font-family: sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: bold;
       font-size: 1vw; }
 
@@ -430,7 +444,7 @@ nav .btn-main:hover {
     width: 50%; }
     .consist4 .consist4_textdiv p {
       width: 60%;
-      font-family: sans-serif;
+      font-family: 'Inter', sans-serif;
       font-weight: bold;
       font-size: 1vw; }
   .consist4 .consist4_imgdiv {
