@@ -412,7 +412,7 @@ h1{
 p{
     font-family: 'Inter', sans-serif;
     
-    font-size: 1.15vw;
+    font-size: 1.33vw;
 }
 }
 
@@ -427,9 +427,10 @@ p{
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding-top: 0;
+   
  
     .team-img{
+       
         margin-top: 20vh;
         width: 70%;
         height: 65vh;
@@ -440,14 +441,14 @@ p{
         width:25%;
         position:relative;
         right: 25%;
-        bottom: 90%;
+        bottom: 100%;
         z-index: 14;
         object-fit: scale-down;
     }
     p{
         width: 70%;
         font-family: 'Inter', sans-serif;
-       font-size: 1vw;
+       font-size: 1.2vw;
        margin-top: 1rem;
     }
 }
@@ -541,8 +542,8 @@ p{
         p{
             width: 100%;
             font-family: 'Inter', sans-serif;
-            font-weight: bold;
-            font-size: 1vw;
+            
+            font-size: 1.5vw;
         }
     }
 }
@@ -556,8 +557,8 @@ p{
         width: 40%;
         p{
             font-family: 'Inter', sans-serif;
-            font-weight: bold;
-            font-size: 1vw;
+            
+            font-size: 1.5vw;
         }
     }
     .consist2_imgdiv{
@@ -591,8 +592,7 @@ p{
         p{
             width: 80%;
             font-family: 'Inter', sans-serif;
-            font-weight: bold;
-            font-size: 1vw;
+            font-size: 1.5vw;
         }
     }
 
@@ -612,8 +612,8 @@ p{
         p{
             width: 60%;
             font-family: 'Inter', sans-serif;
-            font-weight: bold;
-            font-size: 1vw;
+            
+            font-size: 1.5vw;
         }
     }
     .consist4_imgdiv{

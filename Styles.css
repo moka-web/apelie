@@ -303,7 +303,7 @@ nav .btn-main:hover {
       font-size: 4vw; }
     .ourStory-about .text-main-about-container p {
       font-family: 'Inter', sans-serif;
-      font-size: 1.15vw; }
+      font-size: 1.33vw; }
 
 .our-team-section {
   margin-top: 20vh;
@@ -312,8 +312,7 @@ nav .btn-main:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding-top: 0; }
+  align-items: center; }
   .our-team-section .team-img {
     margin-top: 20vh;
     width: 70%;
@@ -323,13 +322,13 @@ nav .btn-main:hover {
     width: 25%;
     position: relative;
     right: 25%;
-    bottom: 90%;
+    bottom: 100%;
     z-index: 14;
     object-fit: scale-down; }
   .our-team-section p {
     width: 70%;
     font-family: 'Inter', sans-serif;
-    font-size: 1vw;
+    font-size: 1.2vw;
     margin-top: 1rem; }
 
 .we-have-section {
@@ -397,8 +396,7 @@ nav .btn-main:hover {
     .consist1 .consist1_textdiv p {
       width: 100%;
       font-family: 'Inter', sans-serif;
-      font-weight: bold;
-      font-size: 1vw; }
+      font-size: 1.5vw; }
 
 .consist2 {
   display: flex;
@@ -409,8 +407,7 @@ nav .btn-main:hover {
     width: 40%; }
     .consist2 .consist2_textdiv p {
       font-family: 'Inter', sans-serif;
-      font-weight: bold;
-      font-size: 1vw; }
+      font-size: 1.5vw; }
   .consist2 .consist2_imgdiv {
     width: 60%; }
     .consist2 .consist2_imgdiv img {
@@ -436,8 +433,7 @@ nav .btn-main:hover {
     .consist3 .consist3_textdiv p {
       width: 80%;
       font-family: 'Inter', sans-serif;
-      font-weight: bold;
-      font-size: 1vw; }
+      font-size: 1.5vw; }
 
 .consist4 {
   width: 100%;
@@ -453,8 +449,7 @@ nav .btn-main:hover {
     .consist4 .consist4_textdiv p {
       width: 60%;
       font-family: 'Inter', sans-serif;
-      font-weight: bold;
-      font-size: 1vw; }
+      font-size: 1.5vw; }
   .consist4 .consist4_imgdiv {
     width: 50%; }
     .consist4 .consist4_imgdiv img {
