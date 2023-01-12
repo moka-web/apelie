@@ -219,17 +219,23 @@ nav .btn-main:hover {
 .footer {
   width: 100%;
   height: 35vh;
-  background-color: #131313; }
+  background-color: #131313;
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 8%; }
   .footer ul {
     padding-top: 2%;
     list-style: none; }
     .footer ul li {
-      color: #ffffff; }
+      color: #ffffff;
+      font-size: 0.87rem; }
   .footer div {
     margin: 3.5rem; }
   .footer .logo-footer {
-    width: 4vw;
-    height: 10vh; }
+    margin-top: 0;
+    width: 6vw;
+    position: relative;
+    bottom: 15px; }
 
 .about-div-bg {
   width: 100% !important; }
