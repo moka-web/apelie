@@ -35,8 +35,10 @@
     backdrop-filter: blur(5.9px);
     -webkit-backdrop-filter: blur(5.9px);
     position: absolute;
-    left: 0;
-    bottom: 1.25rem;
+    left: 5%;
+    height: 30%;
+    width: 38%;
+    bottom: 2rem;
     right: 60%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
