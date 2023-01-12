@@ -33,11 +33,11 @@
 nav ul {
   display: flex;
   list-style: none;
-  margin-left: 6vw; }
+  padding-left: 0px; }
   nav ul div {
-    margin-right: 8.5vw; }
+    margin-right: 10%; }
   nav ul li {
-    margin-right: 8.5vw; }
+    margin-right: 10%; }
 
 nav .btn-main {
   padding-top: 1px;
@@ -238,29 +238,50 @@ nav .btn-main:hover {
     padding-left: 1rem; }
     .ourStory-about .text-main-about-container h1 {
       font-family: "sequel sans black disp";
-      font-size: 5vw; }
+      font-size: 4vw; }
+    .ourStory-about .text-main-about-container p {
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 1vw; }
 
 .our-team-section {
-  margin-top: 10vh; }
-  .our-team-section img {
-    width: 100%;
+  margin-top: 20vh;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0; }
+  .our-team-section .team-img {
+    margin-top: 20vh;
+    width: 70%;
+    height: 65vh;
     object-fit: cover; }
-  .our-team-section p {
-    margin-top: 2rem; }
   .our-team-section .Our-team-png {
-    width: 40%;
+    width: 25%;
+    position: relative;
+    right: 25%;
+    bottom: 90%;
+    z-index: 14;
     object-fit: scale-down; }
+  .our-team-section p {
+    width: 70%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    margin-top: 1rem; }
 
 .we-have-section {
   background-color: white;
   width: 100%;
   height: 100vh;
-  align-items: center; }
+  display: flex;
+  justify-content: center; }
   .we-have-section img {
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 90%;
-    height: 90%; }
+    margin-top: 10%;
+    width: 80%;
+    height: 80%; }
 
 .galery-section {
   display: flex;
@@ -285,7 +306,7 @@ nav .btn-main:hover {
     text-align: start;
     margin: 2rem;
     font-family: "sequel sans black disp";
-    font-size: 5vw; }
+    font-size: 4vw; }
   .other-projects-sections img {
     margin-top: 5%;
     margin-left: 10%;
