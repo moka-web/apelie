@@ -159,6 +159,16 @@ nav{
     background-color: #cccbcb
   }
 
+  .carousel-control-prev-icon {
+    position: relative;
+    left: 30%;
+}
+.carousel-control-next-icon {
+    position: relative;
+    right: 30%;
+}
+
+
 
   .our-solution-section{
     width: 100%;
@@ -432,7 +442,7 @@ p{
 
     .title_solutions{
         font-family: "sequel sans black disp";
-        font-size: 8vw;
+        font-size: 4vw;
     }
 
     span{
@@ -461,6 +471,9 @@ p{
         margin-top: 15vh;
         p{
             width: 100%;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 1vw;
         }
     }
 }
@@ -471,13 +484,18 @@ p{
     height: 100vh;
     justify-content: center;
     .consist2_textdiv{
-        padding-left: 10%;
-        width: 50%;
+        width: 40%;
+        p{
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 1vw;
+        }
     }
     .consist2_imgdiv{
-        width: 50%;
+        width: 60%;
         img{
             width: 100%;
+            height: 90%;
         }
     }
 }
@@ -493,16 +511,19 @@ p{
         }
         .consist3_img2{
             position: relative;
-            bottom: 50%;
-            left: 45%;
+            bottom: 40%;
+            left: 60%;
             z-index: 100;
-            width: 48%;
+            width: 40%;
         }
     }
     .consist3_textdiv{
         width: 50%;
         p{
-            width: 60%;
+            width: 80%;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 1vw;
         }
     }
 
@@ -516,12 +537,14 @@ p{
     margin-bottom: 30vh;
     .consist4_textdiv{
         position: relative;
-        top: 45%;
-        left: 25%;
+        top: 30%;
+        left: 10%;
         width: 50%;
-
         p{
-            width: 50%;
+            width: 60%;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 1vw;
         }
     }
     .consist4_imgdiv{
@@ -546,10 +569,52 @@ p{
 .contactUs_form{
     width: 100%;
     height: 100vh;
-    background-image: url("/images/Email.png");
-    background-size: 80%;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20vh;
+    form{
+        position: relative;
+        left: 15%;
+        width: 100%;
+        height: 90%;
+        background-image: url("/images/Email.png");
+        background-size: 70%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        #fullname{
+            width: 30%;
+            background-color: #afaaaa;
+            border-radius: 16px;
+            border: none;
+            margin-bottom: 3%;
+        }
+        #email{
+            width: 30%;
+            background-color: #afaaaa;
+            border-radius: 16px;
+            border: none;
+            margin-bottom: 3%;
+        }
+        #bodymessage{
+            width: 40%;
+            height: 40vh;
+            background-color: #afaaaa;
+            border-radius: 16px;
+            border: none;
+        }
+        #button{
+            width: 40%;
+            position: relative;
+            top: 10%;
+            height: 5vh;
+            border-radius: 16px;
+            border: none;
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaa01), to(#fdab05));
+        }
+    }
 }
 
 
