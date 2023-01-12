@@ -29,6 +29,28 @@
       border-top-left-radius: calc(0.25rem - 1px);
       border-top-right-radius: calc(0.25rem - 1px);
       object-fit: cover; }
+  .header-main .carousel-caption {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    position: absolute;
+    left: 0;
+    bottom: 1.25rem;
+    right: 60%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center; }
+    .header-main .carousel-caption h5 {
+      width: 100%;
+      display: flex;
+      font-size: 1.5rem;
+      margin-block-start: none;
+      margin-block-end: none;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold; }
 
 nav ul {
   display: flex;
@@ -98,7 +120,6 @@ nav .btn-main:hover {
     text-transform: math-auto; }
 
 .dropdown-content {
-  margin-top: .3rem;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
