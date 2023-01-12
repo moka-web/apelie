@@ -175,7 +175,7 @@ nav .btn-main:hover {
       margin-bottom: 10%; }
     .our-solution-section div .text-our-solutions p {
       font-family: 'Inter', sans-serif;
-      font-weight: bold; }
+      font-size: 1.5rem; }
     .our-solution-section div .our-solution-img {
       padding-top: 10%;
       width: 100%;
@@ -199,7 +199,7 @@ nav .btn-main:hover {
         margin-bottom: 10%; }
       .benefits-section div .text-benefits p {
         font-family: 'Inter', sans-serif;
-        font-weight: bold; }
+        font-size: 1.5rem; }
 
 .section-validation {
   width: 100%;
@@ -210,9 +210,8 @@ nav .btn-main:hover {
     flex-direction: column; }
     .section-validation .title-validation img {
       width: 25vw; }
-    .section-validation .title-validation p {
-      font-family: 'Inter', sans-serif;
-      font-weight: bold; }
+    .section-validation .title-validation span {
+      font-family: 'Inter', sans-serif; }
   .section-validation .section-validation-graph {
     width: 100%;
     display: flex;
@@ -226,9 +225,20 @@ nav .btn-main:hover {
     display: flex;
     margin-top: 3rem;
     margin-bottom: 10rem; }
+    .section-validation .section-validation-text .text-column1 {
+      padding-top: 0;
+      padding-left: 8%;
+      display: flex;
+      flex-direction: column;
+      width: 50%; }
+    .section-validation .section-validation-text .text-column2 {
+      padding-left: 8%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%; }
     .section-validation .section-validation-text p {
-      font-family: 'Inter', sans-serif;
-      font-weight: bold; }
+      font-family: 'Inter', sans-serif; }
 
 .footer {
   width: 100%;
@@ -293,8 +303,7 @@ nav .btn-main:hover {
       font-size: 4vw; }
     .ourStory-about .text-main-about-container p {
       font-family: 'Inter', sans-serif;
-      font-weight: bold;
-      font-size: 1vw; }
+      font-size: 1.15vw; }
 
 .our-team-section {
   margin-top: 20vh;
@@ -320,7 +329,6 @@ nav .btn-main:hover {
   .our-team-section p {
     width: 70%;
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
     font-size: 1vw;
     margin-top: 1rem; }
 
