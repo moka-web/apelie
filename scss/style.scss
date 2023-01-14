@@ -1,4 +1,6 @@
 
+@import './responsive.scss';
+
 @font-face {
     font-family: "sequel sans black disp";
     src: url(/fonts/SequelSansTTF/SequelSansBlackDisp.ttf);
@@ -22,7 +24,6 @@
         object-fit: cover;
      position: absolute;
         z-index: -10;
-       
       }
    }
    .carousel{
@@ -73,7 +74,7 @@
    
 }
 
-nav{
+.nav-desktop{
     ul{
         display: flex;
        list-style: none;
@@ -687,12 +688,18 @@ p{
 }
 
 
+.nav-bar{
+    display: none;
+}
+.main-nav{
+    display: none;
+}
 
 
 
-
-
-
+*{
+    box-sizing: border-box;
+}
 
 
 
