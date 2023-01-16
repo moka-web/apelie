@@ -22,8 +22,8 @@
         width: 100%;
         height: 20vh;
         object-fit: cover;
-     position: absolute;
-        z-index: -10;
+        position: absolute;
+        z-index: -100;
       }
    }
    .carousel{
@@ -370,19 +370,9 @@
     height: 20vh;
     display: flex;
     justify-content: space-between;
-   
-
-    #background-video {
-        width: 100%;
-        height: 20vh;
-        object-fit: cover;
-        position: absolute;
-        z-index: -10;
-       
-      }
     
    }
-   
+
 }
 
 
@@ -508,6 +498,30 @@ p{
 
 //solution 
 
+.header-solution{
+    width: 100%;
+    z-index: -10;
+
+    .header-div-main-solution{
+   
+        background-repeat: no-repeat;
+        background-size: fill;
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        
+        #background-video-solutions{
+            width: 100%;
+            height: 20vh;
+            object-fit: cover;
+            position: absolute;
+            z-index: -100;
+          }
+        }
+
+}
+
 .section_main_solution{
     margin-top: 25vh;
 
@@ -521,6 +535,8 @@ p{
     }
 
 }
+
+
 
 .consist1{
     display: flex;
@@ -625,13 +641,17 @@ p{
     }
 }
 
+
+//contact us
+
 .main_contactUs{
     h1{
         font-family: "sequel sans black disp";
         text-align: center;
 } 
     span{
-        text-align: center;
+        margin-left: 28%;
+        font-family: 'Inter', sans-serif;
     }
 }
 
@@ -640,28 +660,33 @@ p{
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+   
     margin-bottom: 20vh;
     form{
         position: relative;
-        left: 15%;
+        align-items: start;
+        
+        margin-left: 0%;
         width: 100%;
         height: 90%;
         background-image: url("/images/Email.png");
-        background-size: 70%;
+        background-size: contain;
+        background-position: center;
         background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         padding: 5%;
         #fullname{
+            margin-left: 15%;
             width: 30%;
             background-color: #afaaaa;
             border-radius: 16px;
             border: none;
             margin-bottom: 3%;
+            
         }
         #email{
+            margin-left: 15%;;
             width: 30%;
             background-color: #afaaaa;
             border-radius: 16px;
@@ -669,21 +694,31 @@ p{
             margin-bottom: 3%;
         }
         #bodymessage{
+            margin-left: 15%;
             width: 40%;
-            height: 40vh;
+            height: 55%;
             background-color: #afaaaa;
             border-radius: 16px;
             border: none;
+            text-align: start;
+           
         }
         #button{
+            margin-left: 15%;
             width: 40%;
             position: relative;
-            top: 10%;
+            top: 15%;
             height: 5vh;
             border-radius: 16px;
             border: none;
             background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaa01), to(#fdab05));
         }
+    }
+}
+
+.body-contacUs{
+    video{
+        display: none;
     }
 }
 

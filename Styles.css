@@ -17,7 +17,7 @@
       height: 20vh;
       object-fit: cover;
       position: absolute;
-      z-index: -10; }
+      z-index: -100; }
   .header-main .carousel {
     margin-top: 5%;
     height: 60vh; }
@@ -277,12 +277,6 @@
     height: 20vh;
     display: flex;
     justify-content: space-between; }
-    .header-about .header-div-main #background-video {
-      width: 100%;
-      height: 20vh;
-      object-fit: cover;
-      position: absolute;
-      z-index: -10; }
 
 .ourStory-about {
   width: 100%;
@@ -370,6 +364,23 @@
     margin-top: 5%;
     width: 100%;
     margin-bottom: 10vh; }
+
+.header-solution {
+  width: 100%;
+  z-index: -10; }
+  .header-solution .header-div-main-solution {
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between; }
+    .header-solution .header-div-main-solution #background-video-solutions {
+      width: 100%;
+      height: 20vh;
+      object-fit: cover;
+      position: absolute;
+      z-index: -100; }
 
 .section_main_solution {
   margin-top: 25vh; }
@@ -460,52 +471,61 @@
   text-align: center; }
 
 .main_contactUs span {
-  text-align: center; }
+  margin-left: 28%;
+  font-family: 'Inter', sans-serif; }
 
 .contactUs_form {
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 20vh; }
   .contactUs_form form {
     position: relative;
-    left: 15%;
+    align-items: start;
+    margin-left: 0%;
     width: 100%;
     height: 90%;
     background-image: url("/images/Email.png");
-    background-size: 70%;
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     padding: 5%; }
     .contactUs_form form #fullname {
+      margin-left: 15%;
       width: 30%;
       background-color: #afaaaa;
       border-radius: 16px;
       border: none;
       margin-bottom: 3%; }
     .contactUs_form form #email {
+      margin-left: 15%;
       width: 30%;
       background-color: #afaaaa;
       border-radius: 16px;
       border: none;
       margin-bottom: 3%; }
     .contactUs_form form #bodymessage {
+      margin-left: 15%;
       width: 40%;
-      height: 40vh;
+      height: 55%;
       background-color: #afaaaa;
       border-radius: 16px;
-      border: none; }
+      border: none;
+      text-align: start; }
     .contactUs_form form #button {
+      margin-left: 15%;
       width: 40%;
       position: relative;
-      top: 10%;
+      top: 15%;
       height: 5vh;
       border-radius: 16px;
       border: none;
       background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaa01), to(#fdab05)); }
+
+.body-contacUs video {
+  display: none; }
 
 .nav-bar {
   display: none; }
@@ -744,4 +764,165 @@
       margin-top: 0;
       width: 6vw;
       position: relative;
-      bottom: 15px; } }
+      bottom: 15px; }
+  .header-about {
+    width: 100%; }
+    .header-about .header-div-main {
+      display: none; }
+  .header-div-main-solution {
+    display: none !important; }
+  .section_main_solution {
+    margin-top: 0%;
+    padding-top: 15%; }
+    .section_main_solution .title_solutions {
+      font-family: "sequel sans black disp";
+      font-size: 10vw; }
+    .section_main_solution span {
+      font-family: sans-serif; }
+  .consist1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    justify-content: start; }
+    .consist1 .consist1_imgdiv {
+      margin-top: 1rem;
+      width: 100%; }
+      .consist1 .consist1_imgdiv img {
+        width: 100%;
+        height: 100%; }
+    .consist1 .consist1_textdiv {
+      width: 100%;
+      margin-top: 1rem; }
+      .consist1 .consist1_textdiv p {
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5vw; }
+  .consist2 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 50vh;
+    justify-content: start;
+    margin-right: 0%; }
+    .consist2 .consist2_textdiv {
+      width: 100%; }
+      .consist2 .consist2_textdiv p {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5vw; }
+    .consist2 .consist2_imgdiv {
+      width: 100%; }
+      .consist2 .consist2_imgdiv img {
+        width: 100%;
+        height: 100%; }
+  .consist3 {
+    display: flex;
+    width: 100% !important;
+    justify-content: center;
+    height: 50vh;
+    margin-top: 15vh !important;
+    padding: 0%;
+    margin: 0%;
+    margin-right: 0% !important;
+    margin-top: 50vh; }
+    .consist3 .consist3_imgdiv {
+      width: 50%; }
+      .consist3 .consist3_imgdiv .consist3_img1 {
+        width: 100%; }
+      .consist3 .consist3_imgdiv .consist3_img2 {
+        position: relative;
+        bottom: 20%;
+        left: 60%;
+        z-index: 100;
+        width: 40%; }
+    .consist3 .consist3_textdiv {
+      width: 50%;
+      margin-right: 0%; }
+      .consist3 .consist3_textdiv p {
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5vw; }
+  .consist4 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    padding-top: 0vh;
+    margin-bottom: 10vh; }
+    .consist4 .consist4_textdiv {
+      position: relative;
+      top: 30%;
+      left: 10%;
+      width: 50%; }
+      .consist4 .consist4_textdiv p {
+        width: 60%;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5vw; }
+    .consist4 .consist4_imgdiv {
+      width: 50%; }
+      .consist4 .consist4_imgdiv img {
+        width: 100%; }
+  .body-contacUs video {
+    width: 100%;
+    display: block;
+    position: absolute;
+    z-index: -10000;
+    height: 100%;
+    object-fit: cover; }
+  .main_contactUs h1 {
+    font-family: "sequel sans black disp";
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 15vw;
+    width: 90%; }
+  .main_contactUs span {
+    display: none; }
+  .contactUs_form {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20vh; }
+    .contactUs_form form {
+      position: relative;
+      top: 10%;
+      left: 0%;
+      width: 100%;
+      height: 90%;
+      background-image: url("/images/Email.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      padding: 5%; }
+      .contactUs_form form #fullname {
+        width: 40%;
+        background-color: #afaaaa;
+        border-radius: 16px;
+        border: none;
+        margin-top: 15%;
+        margin-bottom: 3%;
+        margin-left: 5%; }
+      .contactUs_form form #email {
+        width: 40%;
+        background-color: #afaaaa;
+        border-radius: 16px;
+        border: none;
+        margin-bottom: 3%;
+        margin-left: 5%; }
+      .contactUs_form form #bodymessage {
+        width: 50%;
+        height: 40%;
+        margin-left: 5%;
+        background-color: #afaaaa;
+        border-radius: 16px;
+        border: none; }
+      .contactUs_form form #button {
+        width: 40%;
+        position: relative;
+        margin-left: 5%;
+        top: 5%;
+        height: 3vh;
+        border-radius: 16px;
+        border: none;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaa01), to(#fdab05)); } }

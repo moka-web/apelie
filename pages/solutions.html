@@ -7,25 +7,57 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/Styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <link rel="stylesheet" href="/Styles.css">
 </head>
 <body>
-    <header class="header-about">
-        <div class="header-div-main">
-            <video id="background-video" autoplay loop muted >
-                <source src="/images/Animacion5mg.mp4" type="video/mp4">
-              </video>
-            <div class="container d-flex  justify-content-between">
-                <i><img class="logo1" src="/images/01 Logotipo Apelie.png" alt=""></i>
-                <a href=""><img class="logo" src="/images/02 Isologotipo Apelie.png" alt=""></a>
-            </div>
-        
+    <header class="header-solution">
+        <div class="header-div-main-solution">
+            <video id="background-video-solutions" autoplay loop muted >
+              <source src="/images/Animacion5mg.mp4" type="video/mp4">
+            </video>
+              <div class="container d-flex  justify-content-between">
+                  <i><img class="logo1" src="/images/01 Logotipo Apelie.png" alt=""></i>
+                  <a href=""><img class="logo" src="/images/02 Isologotipo Apelie.png" alt=""></a>
+              </div>
         </div>
-        <nav id="menu" class="container">
+
+        <span id="btnmenu" class="nav-bar">
+            <i class="fas fa-bars"></i>
+          </span>    
+          
+          <nav class="main-nav">
+            
+            <ul class="menu" id="menu">
+              <h1>Where <span style="font-weight: bold;">are you going</span> ?</h1>
+              <li class="menu__item container-submenu">
+                <a href="#" class="menu__link submenu-btn">home<i class="fas fa-plus"></i></i></i> </a>
+                <ul class="submenu">
+                  <li class="menu__item"><a href="#solutions" class="menu__link">our solution</a></li>
+                  <li class="menu__item"><a href="#benefits" class="menu__link">benefits</a></li>
+                  <li class="menu__item"><a href="#validation" class="menu__link">validation</a></li>
+                </ul>
+              </li>
+              <hr>
+              <li class="menu__item container-submenu">
+                <a href="#" class="menu__link submenu-btn">about <i class="fas fa-plus"></i></i></a>
+                <ul class="submenu">
+                  <li class="menu__item"><a href="/pages/about.html#ourStory" class="menu__link">our story</a></li>
+                  <li class="menu__item"><a href="/pages/about.html#team" class="menu__link">team</a></li>
+                  <li class="menu__item"><a href="/pages/about.html#projects" class="menu__link">projects</a></li>
+                </ul></li>
+                <hr>
+              <li class="menu__item"><a href="" class="menu__link">solution</a></li>
+              <hr>
+              <li class="menu__item contactUs-responsive"><a href="" class="menu__link">contactUs</a></li>
+            </ul>
+          </nav>
+        
+        <nav id="menu" class=" nav-desktop container">
             <ul>
                 <!-- start menu desplegable -->
                 <div class="dropdown">
@@ -140,10 +172,12 @@
         </div>
         
     </footer>
-        
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/index.js"></script>
+    
 </body>
 </html>
