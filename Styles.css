@@ -677,25 +677,28 @@
     .menu hr {
       width: 300px; }
     .menu .contactUs-responsive {
-      margin-top: 100px; }
+      position: absolute;
+      top: 700px; }
     .menu h1 {
       padding-top: 50px;
       margin-bottom: 100px;
       font-size: 3em; }
   .menu__link {
     display: block;
-    padding: 20px;
     color: #000000;
     font-size: 1.2em;
     text-decoration: none; }
     .menu__link i {
       margin-left: 200px; }
+  .menu__link:hover {
+    color: #000000; }
   .submenu {
     height: 0;
     overflow: hidden;
     transition: all 0.3s; }
     .submenu .menu__link {
-      padding-left: 50px; }
+      padding-left: 50px;
+      padding-top: 10px; }
   .submenu .menu__link:hover {
     background: #222; }
   .mostrar {
@@ -816,6 +819,32 @@
     width: 100%; }
     .header-about .header-div-main {
       display: none; }
+  .ourStory-about {
+    width: 100%;
+    height: 100vh;
+    padding: 5rem; }
+    .ourStory-about .ourStory-about-main-container {
+      padding: 3.5vw !important;
+      display: flex;
+      flex-direction: column; }
+    .ourStory-about .img-main-about-container {
+      display: flex;
+      width: 60%; }
+      .ourStory-about .img-main-about-container h1 {
+        font-family: "sequel sans black disp";
+        font-size: 8vw; }
+    .ourStory-about .img-main-about {
+      width: 100%;
+      height: 20vh;
+      object-fit: cover; }
+    .ourStory-about .text-main-about-container {
+      padding-left: 0rem;
+      width: 100% !important; }
+      .ourStory-about .text-main-about-container h1 {
+        display: none; }
+      .ourStory-about .text-main-about-container p {
+        font-family: 'Inter', sans-serif;
+        font-size: 3.5vw; }
   .header-div-main-solution {
     display: none !important; }
   .section_main_solution {
