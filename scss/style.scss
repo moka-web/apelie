@@ -735,7 +735,62 @@ p{
 *{
     box-sizing: border-box;
 }
+.poligon-grandfather{
+    filter: drop-shadow(-2px -1px 39px  rgba(255, 196, 3, 0.911));
+    margin-top: -10%;
+    button{
+        position: absolute;
+        bottom: 1%;
+        left: 40%;
+        border-radius: 16px;
+        width: 180px;
+        height: 28px;
+        background-color: #fdab05;
+        border: none;
+    }
+}
 
+.poligon-father{
+    clip-path: polygon(50% 0%, 83% 0, 100% 17%, 100% 70%, 84% 100%, 51% 100%, 51% 90%, 0 89%, 0 13%, 10% 0);
+    background-color: #dad3d3;
+    width: 60vh;
+    height: 50vh;
+    margin-left: 40%;
+}
+.poligon{
+    z-index: 1;
+    background-color: #f6f6f7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width:99.5%;
+    height: 99.5%;
+    display: flex;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+   
+    clip-path: polygon(50% 0%, 83% 0, 100% 17%, 100% 70%, 84% 100%, 51% 100%, 51% 90%, 0 89%, 0 13%, 10% 0);
+    form{
+        position: relative;
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        input{
+            margin-bottom: 10px;
+            border-radius: 16px;
+            border: none;
+            background-color: #afaaaa;
+            width:80%;
+        }
 
+        #bodymessage{
+            height: 130px;
+            width:100%;
+        }
+
+      
+    }
+}
 
 @import './responsive.scss';
