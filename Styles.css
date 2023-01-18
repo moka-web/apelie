@@ -366,6 +366,8 @@
     margin-top: 5%;
     width: 100%;
     margin-bottom: 10vh; }
+  .other-projects-sections p {
+    display: none; }
 
 .header-solution {
   width: 100%;
@@ -659,7 +661,8 @@
     top: 50px;
     width: 90%;
     height: 90vh;
-    border-radius: 16px; }
+    border-radius: 16px;
+    z-index: 2; }
   .menu, .submenu {
     list-style: none;
     padding: 0;
@@ -917,6 +920,7 @@
       margin-left: 5%;
       margin-bottom: 0vh; }
     .other-projects-sections p {
+      display: block;
       width: 90%;
       margin-left: 5%;
       margin-top: 1rem;
@@ -1029,6 +1033,7 @@
   .main_contactUs span {
     display: none; }
   .contactUs_form {
+    z-index: 1;
     width: 100%;
     height: 50vh;
     display: flex;
