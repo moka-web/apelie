@@ -817,6 +817,9 @@
       width: 6vw;
       position: relative;
       bottom: 15px; }
+  #background-video-about {
+    width: 100% !important;
+    height: 100vh !important; }
   .header-about {
     width: 100%; }
     .header-about .header-div-main {
