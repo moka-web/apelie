@@ -286,6 +286,8 @@
     padding: 3.5vw !important; }
   .ourStory-about .img-main-about-container {
     width: 45%; }
+    .ourStory-about .img-main-about-container h1 {
+      display: none; }
   .ourStory-about .img-main-about {
     width: 100%;
     height: 75vh;
@@ -831,6 +833,7 @@
       display: flex;
       width: 60%; }
       .ourStory-about .img-main-about-container h1 {
+        display: block;
         font-family: "sequel sans black disp";
         font-size: 8vw; }
     .ourStory-about .img-main-about {
@@ -845,6 +848,76 @@
       .ourStory-about .text-main-about-container p {
         font-family: 'Inter', sans-serif;
         font-size: 3.5vw; }
+  .our-team-section {
+    margin-top: 20vh;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start; }
+    .our-team-section .team-img {
+      margin-top: 0vh;
+      width: 90%;
+      height: 40vh;
+      object-fit: cover; }
+    .our-team-section .Our-team-png {
+      width: 40%;
+      position: relative;
+      right: 25%;
+      bottom: 80%;
+      z-index: 14;
+      object-fit: scale-down; }
+    .our-team-section p {
+      width: 90%;
+      font-family: 'Inter', sans-serif;
+      font-size: 3vw;
+      margin-top: 1rem; }
+  .we-have-section {
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center; }
+    .we-have-section img {
+      margin-top: 10%;
+      width: 80%;
+      height: 80%;
+      object-fit: scale-down; }
+  .galery-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    justify-content: center; }
+    .galery-section div {
+      margin-right: 0rem;
+      margin-bottom: 2rem;
+      width: 100%;
+      height: 40vh; }
+      .galery-section div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+  .other-projects-sections {
+    margin-top: 0vh;
+    padding-top: 30vh;
+    background-color: white;
+    margin-bottom: 20%; }
+    .other-projects-sections h1 {
+      text-align: start;
+      margin: 2rem;
+      font-family: "sequel sans black disp";
+      font-size: 8vw;
+      width: 50%; }
+    .other-projects-sections img {
+      margin-top: 5%;
+      width: 90%;
+      margin-left: 5%;
+      margin-bottom: 0vh; }
+    .other-projects-sections p {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 1rem;
+      margin-bottom: 1rem; }
   .header-div-main-solution {
     display: none !important; }
   .section_main_solution {
