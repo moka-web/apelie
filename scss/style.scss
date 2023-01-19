@@ -5,6 +5,11 @@
     font-family: "sequel sans black disp";
     src: url(/fonts/SequelSansTTF/SequelSansBlackDisp.ttf);
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
 .header-main{
     width: 100%;
     height: 100vh;

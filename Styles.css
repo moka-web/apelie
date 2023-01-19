@@ -2,6 +2,10 @@
   font-family: "sequel sans black disp";
   src: url(/fonts/SequelSansTTF/SequelSansBlackDisp.ttf); }
 
+* {
+  margin: 0;
+  padding: 0; }
+
 .header-main {
   width: 100%;
   height: 100vh; }
@@ -811,7 +815,8 @@
           display: none; }
         .benefits-section div .text-benefits p {
           font-family: 'Inter', sans-serif;
-          font-size: 4vw; }
+          font-size: 4vw;
+          margin: 0%; }
   .section-validation {
     width: 100%;
     margin-top: 10vh; }
