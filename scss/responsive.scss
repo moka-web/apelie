@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
    
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
     .header-main{
         width: 100%;
@@ -25,7 +29,7 @@
           }
        }
        .carousel{
-        margin-top: 5%;
+        margin-top: 0%;
         width: 100% !important;
         height: 25vh !important ;
         #carouselExampleIndicators{
@@ -217,34 +221,60 @@
     
     
       .our-solution-section{
-        width: 100%;
-        height: 40vh;
+      
+        height: 55vh;
         margin-top: 10vh;
         display: flex;
         flex-direction: column;
+        .d-flex{
+            flex-direction: row-reverse;
+        }
+
+        .container{
+            width: 100%;
+            padding-right: 0%;
+            padding-left: 0%;
+            margin-right:0%;
+            margin-left: 0%;
+        }
+
         div{
             width: 100%;
             .text-our-solutions{
-                padding: 5%;
+                padding: 2%;
                 
             }
             .text-our-solutions{
                 img{
-                    width: 30vw;
-                    margin-top: 10%;
-                    margin-bottom: 0%;
+                   display: none;
+                }
+                 width: 45% !important;
+                 padding-top: 10%;
+                .oursolution-h1-res{
+                    display: block;
+                    font-family: "sequel sans black disp";
+                    font-size: 6vw;
+                    color: #df9300;
                 }
                 p{
                     font-family: 'Inter', sans-serif;
-                    font-size: 1rem;
+                    font-size: 4vw;
+                    margin: 0%;
                 }
             }
-            .our-solution-img{
-                padding-top: 20%;
-                width: 100%;
-                height: 25vh !important;
-                object-fit: cover;
+
+            .our-solution-img-container{
+                width: 55% !important;
+                height: 100%;
+
+                .our-solution-img{
+                    padding-top: 20%;
+                    width: 100%;
+                    height: 100% !important;
+                    object-fit: cover;
+                }
             }
+            
         }
       }
     
@@ -253,23 +283,28 @@
         height: 50vh;
         div{
             width: 100%;
+            flex-direction: row-reverse;
             .benefits-img{
                 padding-top: 10%;
                 width: 100%;
-                height: 45vh !important;
+                height: 95% !important;
                 object-fit: cover;
             }
             .text-benefits{
-                padding: 7%;
+                padding: 2%;
+                .benefits-h1-res{
+                    display: block;
+                    font-family: "sequel sans black disp";
+                    font-size: 6vw;
+                    color: #df9300;
+                }
                 img{
-                    width: 20vw;
-                    margin-bottom: 10%;
+                  display: none;
                 }
             
                 p{
                     font-family: 'Inter', sans-serif;
-                  
-                    font-size: 1rem;
+                    font-size: 4vw;
                 }
             
             }
@@ -300,10 +335,12 @@
           
             padding-top: 3%;
             .validation-img{
+               display: none;
+            }
+
+            .validation-img-res{
+                display: block;
                 width: 100%;
-                height: 50vh;
-                margin: .5rem;
-                object-fit: contain;
             }
           
         }
@@ -331,7 +368,7 @@
     
             p{
                 font-family: 'Inter', sans-serif;
-                
+                font-size: 4vw;
             }
         }
     }
