@@ -750,10 +750,11 @@
     top: 40%; }
   .carousel-control-prev-icon {
     position: relative;
-    left: 30%; }
+    left: 40%;
+    margin: 0%; }
   .carousel-control-next-icon {
     position: relative;
-    right: 30%; }
+    right: 40%; }
   .our-solution-section {
     height: 55vh;
     margin-top: 10vh;
