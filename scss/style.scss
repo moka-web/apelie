@@ -544,6 +544,15 @@ p{
     width: 100%;
     height: 100vh;
     justify-content: center;
+    .consist-1-text-res{
+        display: none;
+    }
+    .consist1-title-res{
+        display: none;
+    }
+    .consist-1-text-res{
+        display: block;
+    }
    
     .consist1_imgdiv{
         margin-top: 15vh;
@@ -592,6 +601,10 @@ p{
     display: flex;
     width: 100%;
     height: 100vh;
+
+    .div-consist3-text-res{
+        display: none;
+    }
     .consist3_imgdiv{
         width: 60%;
         .consist3_img1{
