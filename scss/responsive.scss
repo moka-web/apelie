@@ -1398,6 +1398,12 @@ p{
         }
      
     }
+
+    #button{
+        margin-top: 5%;
+    }
+   
+       
 }
 
 @media(min-width:1400px){
@@ -1652,7 +1658,7 @@ p{
             background-repeat: no-repeat;
             display: flex;
             flex-direction: column;
-            padding-top: 20%;
+            padding-top: 10%;
             #fullname{
                 height: 8%;
                 width: 40%;
@@ -1677,7 +1683,7 @@ p{
             }
             #bodymessage{
                 width: 50%;
-                height: 40%;
+                height: 45%;
                 margin-left: 5%;
                 background-color: #afaaaa;
                 border-radius: 16px;
