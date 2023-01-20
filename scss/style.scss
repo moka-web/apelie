@@ -810,9 +810,15 @@ p{
 *{
     box-sizing: border-box;
 }
+
+
 .poligon-grandfather{
     filter: drop-shadow(-2px -1px 39px  rgba(255, 196, 3, 0.911));
-    margin-top: -10%;
+    margin-top: 10%;
+    height: 70vh;
+    margin-bottom: 10%;
+    align-items: center;
+ 
     button{
         position: absolute;
         bottom: 1%;
@@ -828,9 +834,9 @@ p{
 .poligon-father{
     clip-path: polygon(50% 0%, 83% 0, 100% 17%, 100% 70%, 84% 100%, 51% 100%, 51% 90%, 0 89%, 0 13%, 10% 0);
     background-color: #dad3d3;
-    width: 60vh;
-    height: 50vh;
-    margin-left: 40%;
+    width: 50%;
+    height: 100%;
+  
 }
 .poligon{
     z-index: 1;
