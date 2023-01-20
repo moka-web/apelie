@@ -1560,7 +1560,7 @@ p{
 @media (min-width:1750px) {
     .nav-desktop{
         ul{
-            width;
+            width:100% !important;
            display: flex;
            list-style: none;
            padding-left: 0px;

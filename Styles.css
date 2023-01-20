@@ -1723,14 +1723,15 @@
 
 @media (min-width: 1750px) {
   .nav-desktop ul {
+    width: 100% !important;
     display: flex;
     list-style: none;
     padding-left: 0px;
     padding-right: 0px !important; }
     .nav-desktop ul div {
-      margin-right: auto; }
+      margin-right: 7%; }
     .nav-desktop ul li {
-      margin-right: auto; } }
+      margin-right: 7%; } }
 
 @media (min-width: 1800px) {
   .nav-desktop ul {
