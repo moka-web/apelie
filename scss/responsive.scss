@@ -1401,6 +1401,25 @@ p{
 }
 
 
+@media(min-width:1480px){
+    .nav-desktop{
+        ul{
+            display: flex;
+           list-style: none;
+           padding-left: 0px;
+           padding-right: 0px !important;
+           div{
+            margin-right: 11%;
+           }
+           li{
+            margin-right: 11%;
+           }
+        }
+     
+    }
+}
+
+
 
 
 
