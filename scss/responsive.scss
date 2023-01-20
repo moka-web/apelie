@@ -319,17 +319,23 @@
     
     .section-validation{
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 5vh;
         .title-validation{
             padding-left: 4vw;
             display: flex;
             flex-direction: column;
             img{
              width: 25vw;
-             
+             display: none;
             }
            span{
             font-family: 'Inter', sans-serif;
+           }
+           .validation-h1-res{
+                     display: block;
+                    font-family: "sequel sans black disp";
+                    font-size: 6vw;
+                    color: #df9300;
            }
          }
      
@@ -470,7 +476,7 @@
     
 .our-team-section{
     margin-top: 20vh;
-     height: 80vh;
+     height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -503,7 +509,7 @@
  .we-have-section{
     background-color: white;
     width: 100%;
-    height: 30vh;
+    height: 20vh;
     display: flex;
    justify-content: center;
     img{
@@ -523,13 +529,16 @@
     justify-content: center;
     div{
      margin-right: 0rem;
-     margin-bottom: 2rem;
+     margin-left: 10%;
+     margin-bottom: .5rem;
      width: 100%;
      height: 40vh;
+    align-items: center;
      img{
-         width: 100%;
-         height:100%;
+         width: 90%;
+         height:90%;
          object-fit: cover;
+         object-position: center
      };
     }
     
@@ -537,7 +546,7 @@
 
  .other-projects-sections{
     margin-top: 0vh;
-    padding-top: 30vh;
+    padding-top: 5vh;
     background-color: white;
     margin-bottom: 20%;
     h1{
@@ -549,8 +558,8 @@
             }
     img{
         margin-top: 5%;
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+        margin-left: 0%;
         margin-bottom: 0vh
     };
     p{
@@ -559,6 +568,8 @@
         margin-left: 5%;
         margin-top: 1rem;
         margin-bottom: 1rem;
+        font-family: 'Inter', sans-serif;
+        font-size: 4vw;
     }
 }
 
@@ -757,7 +768,7 @@
             position: absolute;
             top: 0;
             z-index: -10000;
-            height: 100%;
+            height: 120vh;
             object-fit: cover;
         }
     }
@@ -1053,7 +1064,7 @@ p{
 
  .other-projects-sections{
     margin-top: 0vh;
-    padding-top: 30vh;
+    padding-top: 10vh;
     background-color: white;
     margin-bottom: 20%;
     h1{
@@ -1164,7 +1175,7 @@ p{
         img{
             width: 100%;
             height: 90%;
-            
+            object-fit: cover;
         }
     }
 }
@@ -1190,6 +1201,7 @@ p{
         .consist3_img1{
             width: 60%;
             height: 70%;
+            object-fit: cover;
         }
         .consist3_img2{
             position: absolute;
@@ -1251,12 +1263,87 @@ p{
         width: 70%;
         img{
             width: 100%;
+            object-fit: cover;
         }
     }
 }
 
 
+.body-contacUs{
+    height: 100%;
+    video{
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        z-index: -10000;
+        height: 125vh;
+        object-fit: cover;
+    }
+}
 
+.contactUs_form{
+    z-index: 1;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20vh;
+    form{
+        position: relative;
+        top: 10%;
+        left: 0%;
+        width: 100%;
+        height: 90%;
+        background-image: url("/images/Email.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10%;
+        #fullname{
+            height: 8%;
+            width: 40%;
+            background-color: #c2bbbb;
+            border-radius: 16px;
+            border: none;
+            margin-top: 5%;
+            margin-bottom: 3%;
+            margin-left: 5%;
+            padding: 0rem;
+        }
+    
+
+        #email{
+            height: 8%;
+            width: 40%;
+            background-color: #afaaaa;
+            border-radius: 16px;
+            border: none;
+            margin-bottom: 3%;
+            margin-left: 5%;
+        }
+        #bodymessage{
+            width: 50%;
+            height: 48%;
+            margin-left: 5%;
+            background-color: #afaaaa;
+            border-radius: 16px;
+            border: none;
+        }
+        #button{
+            width: 40%;
+            position: relative;
+            margin-left: 5%;
+            top: 5%;
+            height: 3vh;
+            border-radius: 16px;
+            border: none;
+            background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffaa01), to(#fdab05));
+        }
+    }
+}
 
 
 
