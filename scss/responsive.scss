@@ -1381,4 +1381,26 @@ p{
 
 
 
+@media(min-width:1400px){
+
+    .nav-desktop{
+        ul{
+            display: flex;
+           list-style: none;
+           padding-left: 0px;
+           padding-right: 0px !important;
+           div{
+            margin-right: 13%;
+           }
+           li{
+            margin-right: 13%;
+           }
+        }
+     
+    }
+}
+
+
+
+
 

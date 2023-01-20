@@ -1587,3 +1587,14 @@
       width: 6vw;
       position: relative;
       bottom: 15px; } }
+
+@media (min-width: 1400px) {
+  .nav-desktop ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 0px !important; }
+    .nav-desktop ul div {
+      margin-right: 13%; }
+    .nav-desktop ul li {
+      margin-right: 13%; } }
