@@ -1420,6 +1420,61 @@ p{
 }
 
 
+@media(min-width:1600px){
+    .nav-desktop{
+        ul{
+           display: flex;
+           list-style: none;
+           padding-left: 0px;
+           padding-right: 0px !important;
+           div{
+            margin-right: 10%;
+           }
+           li{
+            margin-right: 10%;
+           }
+        }
+    }
+}
+
+
+
+@media(min-width:1700px){
+    .nav-desktop{
+        ul{
+           display: flex;
+           list-style: none;
+           padding-left: 0px;
+           padding-right: 0px !important;
+           div{
+            margin-right: 9%;
+           }
+           li{
+            margin-right: 9%;
+           }
+        }
+    }
+}
+
+@media(min-width:1800px){
+    .nav-desktop{
+        ul{
+           display: flex;
+           list-style: none;
+           padding-left: 0px;
+           padding-right: 0px !important;
+           div{
+            margin-right: 7%;
+           }
+           li{
+            margin-right: 7%;
+           }
+        }
+    }
+}
+
+
+
 
 
 
